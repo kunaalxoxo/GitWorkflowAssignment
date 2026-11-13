@@ -1,0 +1,83 @@
+
+GIT & GITHUB WORKFLOW - COMMAND DOCUMENTATION
+
+1. git init
+   Initializes a new Git repository in the current folder.
+
+2. git config --global user.name "kunaalxoxo"
+   Sets the Git username globally.
+
+3. git config --global user.email "kunaal.lala@outlook.com"
+   Sets the Git email globally.
+
+4. git branch -M main
+   Renames the current branch to main.
+
+5. git status
+   Displays the current repository status and file changes.
+
+6. git add .
+   Stages all changes in the current directory.
+
+7. git commit -m "Initial commit: Add HTML pages"
+   Creates the first commit with project files.
+
+8. git add index.html
+   Stages changes made to index.html.
+
+9. git commit -m "Update homepage content"
+   Saves the homepage modification.
+
+10. git branch feature
+    Creates a new branch named feature.
+
+11. git switch feature
+    Switches to the feature branch.
+
+12. git branch
+    Displays all local branches.
+
+13. git add about.html
+    Stages changes made to about.html.
+
+14. git commit -m "Add feature branch update to about page"
+    Saves the feature branch changes.
+
+15. git switch main
+    Switches back to the main branch.
+
+16. git merge feature
+    Merges the feature branch into main.
+
+17. git log --oneline --graph --all
+    Displays commit history in a graphical format.
+
+18. git check-ignore -v error.log temp/sample.txt
+    Verifies which .gitignore rules ignore the specified files.
+
+19. git add .gitignore
+    Stages the .gitignore file.
+
+20. git commit -m "Add gitignore for logs and temporary files"
+    Commits the ignore configuration.
+
+21. git add index.html
+    Stages the additional homepage modification.
+
+22. git commit -m "Add temporary content to homepage"
+    Creates an additional commit for the undo demonstration.
+
+23. git revert HEAD
+    Reverses the latest commit while preserving repository history.
+
+24. git log --oneline -5
+    Displays the five most recent commits.
+
+25. git remote add origin https://github.com/kunaalxoxo/GitWorkflowAssignment.git
+    Connects the local repository to the GitHub remote.
+
+26. git push -u origin main
+    Pushes the main branch to GitHub and sets upstream tracking.
+
+27. git push -u origin feature
+    Pushes the feature branch to GitHub and sets upstream tracking.
